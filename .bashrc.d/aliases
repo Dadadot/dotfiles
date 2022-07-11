@@ -1,0 +1,15 @@
+alias cp="cp -i"                          # confirm before overwriting something
+alias df='df -h'                          # human-readable sizes
+alias free='free -m'                      # show sizes in MB
+alias ls='ls -ahls --color=auto'
+alias htop='bpytop'
+alias np='nano -w PKGBUILD'
+alias plx="sudo "
+alias sudo="sudo -p 'UwU Giwme yow paswowd: '"
+alias srsly="echo fo realz"
+alias vim="nvim"
+alias sound="pavucontrol"
+alias shutit="systemctl poweroff"
+alias synctodrive="rclone sync -P ~/prog GoogleDrive:/prog"
+alias syncfromdrive="rclone sync -P GoogleDrive:/prog ~/prog"
+alias dot_git="/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME"
