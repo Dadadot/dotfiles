@@ -41,7 +41,7 @@ exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=ssh,secr
 exec --no-startup-id feh --bg-fill /home/sam/Pictures/1901_Munch_Mädchen_auf_der_Brücke_anagoria.jpeg
 
 #start compton
-exec --no-startup-id compton
+exec --no-startup-id compton --config ~/.config/compton.conf
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
