@@ -101,7 +101,7 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
+bindsym $mod+q layout stacking
 bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
@@ -202,3 +202,9 @@ bindsym XF86MonBrightnessUp exec light -k -A 10 # increase screen brightness
 bindsym XF86MonBrightnessDown exec light -k -U 10 # decrease screen brightness
 
 focus_follows_mouse no
+
+# Make the currently focused window a scratchpad
+bindsym $mod+Shift+minus move scratchpad
+
+# Show the first scratchpad window
+bindsym $mod+minus scratchpad show
